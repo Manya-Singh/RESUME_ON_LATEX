@@ -1,0 +1,126 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{Manya Singh} \\
+\indent Greater Noida (U.P., INDIA) - 201306 \\
+\indent Email-id : \textbf{manyasi2002@gmail.com} \\
+\indent Mobile No.: \textbf{+91 8954802668} \\
+\begin{align}
+\indent GitHub: \textbf{https://github.com/Manya-Singh} \\
+\indent LinkedIn: \textbf{https://www.linkedin.com/in/manya-singh-/} \\ 
+\indent Leetcode: \textbf{https://leetcode.com/SinManya/} \\
+\end{align}
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l }
+\hline
+\textbf{Year} & \textbf{Course/Branch/Exam} & \textbf{Institute} & \textbf{Marks/CPI(\%)} \\
+\hline
+2020-24\,\, & \textit{U.G. / CSE (AI and DS)} & Graphic Era University, Dehradun & 95.03\\
+2020, 2018 & AISSCE with PCM (CBSE), AISSE (CBSE) & Aster Public School, Greater Noida & 97.6, 98.04 \\
+\hline
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \\
+
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Languages} (C, C++, Python, Core Java)
+\item \noindent \textbf{Tools/Databases} (AWS, Microsoft Azure, GCP, Eclipse, Jupyter, Anaconda, VS Code, Oracle, MySQL)
+\item \noindent \textbf{ML} (Data Mining & Modeling, ML Algorithms, Predictive Analysis, Anomaly detection, Deep Learning and Neural Networks, Data analysis, Data Visualization (Tableau, Power BI, MS Excel), Statistical Modeling, Clustering and Classification)
+\end{itemize}
+
+\resheading{\textbf{WORK EXPERIENCE} }\\[\lsep]
+\begin{itemize}
+\item \textbf {Microsoft Engage '22 Apprenticeship:} Developed and presented a browser-based application to demonstrate application of Object detection and recognition technology for finding mission people or lost pets in 3 weeks.
+\end{itemize}
+
+\resheading{\textbf{PROJECTS AND PAPERS} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Automating mail sending using Python} (Mini-project)\\
+ \\[-1.1cm]
+	\begin{itemize}\itemsep \isep
+	\item Created a web-app to send automated personalized emails to many people simultaneously in 4 different ways, viz., static text, dynamic text, beautified email using HTML/CSS, and beautified email using HTML/CSS (with attachments). 
+	\item Tech-stacks used: VS Code as IDE, Python language, Django framework for backend dev, and HTML/CSS for frontend dev, GitHub for version controlling and code maintenance, CMD for execution of Python files, and Gmail service for sending mails.
+	\end{itemize}
+
+\item \textbf{Facial recognition smart attendance app} (Smart India Hackathon '22 submission) \\
+ \\[-1.1cm]
+	\begin{itemize}\itemsep \isep
+	\item Created an app to record the attendance of individuals after facially recognizing them. The ML model was trained to accurately recognize even those with caps/helmets/spectacles on.
+	\item Used CNN, Keras API, TensorFlow, OpenCV, tkinter, Python Imaging Lib for creation of ML Model and Flutter Facenet API for app development. 
+	\end{itemize}
+
+\item \textbf{ML Model to predict given song's release year using regression and neural networks} (Side Project) 
+\\[-0.7cm]
+	\begin{itemize}\itemsep \isep
+	\item Worked on a sub-dataset from the Million-Song dataset to train the ML model.
+	\item Employed the Seaborn and Sklearn libraries for visualizations and statistical modeling, respectively.
+	\item Had a high error rate; explanation can be found in the fact that the predictor gets confused between the original songs and their covers made decades later.
+	\end{itemize}
+	
+\item \textbf{Weather Prediction using different ML Algorithms} (Oracle Boot-Camp Assignment Project) 
+ \\[-0.7cm]
+	\begin{itemize}\itemsep \isep
+	\item Relevant Canva presentation explaining the project - shorturl.at/bhlJO 
+	\item Applied 6 different ML algos viz. Logistic Regression, KNN, SVM, Random Forest, Naive Bayes and Decision Tree Classification to get a comparative analysis for the model.
+	\item Naive Bayes gave the highest accuracy at 84.15 \% for classifying the weather into any of these 5 : drizzle, rain, sun, snow and fog. The dataset employed is Seattle Weather data.
+	\end{itemize}
+
+\item \textbf{A review paper on Blockchain Adoption in Food Security}
+ \\[-0.7cm]
+	\begin{itemize}\itemsep \isep
+	\item In this paper, we aimed to address some key questions that will help researchers to further extend their work in the progress of blockchain integration towards the goal of food security.
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{\textbf{CERTIFICATIONS} }\\[\lsep]
+\begin{itemize}
+\item \noindent Microsoft Certified: Azure AI Fundamentals (AI-900), AWS Certified Cloud Practitioner
+\end{itemize}
+
+\end{document}
