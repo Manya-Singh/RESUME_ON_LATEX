@@ -109,6 +109,14 @@
 	\item Applied 6 different ML algos viz. Logistic Regression, KNN, SVM, Random Forest, Naive Bayes and Decision Tree Classification to get a comparative analysis for the model.
 	\item Naive Bayes gave the highest accuracy at 84.15 \% for classifying the weather into any of these 5 : drizzle, rain, sun, snow and fog. The dataset employed is Seattle Weather data.
 	\end{itemize}
+	
+\item \textbf{Dog's breed classification using Deep Learning (Transfer Learning)} (Mini-Project) 
+ \\[-0.7cm]
+	\begin{itemize}\itemsep \isep
+	\item Relevant Canva presentation explaining the project - https://bit.ly/3HrpLVZ 
+	\item Applied 4 pre-trained CNN models viz. Xception, Inception V3 , Inception ResNet V2, and NasNet Large to get a comparative analysis for the model.
+	\item NasNet Large gave the highest accuracy at 82.5 \% for classifying the images into 120 breeds. The dataset employed is Stanford Dogs Dataset.
+	\end{itemize}
 
 \item \textbf{A review paper on Blockchain Adoption in Food Security}
  \\[-0.7cm]
@@ -120,7 +128,12 @@
 
 \resheading{\textbf{CERTIFICATIONS} }\\[\lsep]
 \begin{itemize}
-\item \noindent Microsoft Certified: Azure AI Fundamentals (AI-900), AWS Certified Cloud Practitioner
+\item \noindent Microsoft Certified: Azure AI Fundamentals (AI-900)
+\item \noindent AWS Certified Cloud Practitioner
+\item \noindent Bertelsmann Employee Scholarship '23 Nanodegree recipient by Udacity
+\item \noindent AWS Machine Learning Foundations Nanodegree by Udacity
 \end{itemize}
 
+
 \end{document}
+
