@@ -118,6 +118,13 @@
 	\item NasNet Large gave the highest accuracy at 82.5 \% for classifying the images into 120 breeds. The dataset employed is Stanford Dogs Dataset.
 	\end{itemize}
 
+ \item \textbf{Scraping GitHub webpage to generate datasets in CSV format using BeautifulSoup and Requests libs} (Mini-Project) 
+ \\[-0.7cm]
+	\begin{itemize}\itemsep \isep
+        \item GitHub is a website and cloud-based service that assists developers in storing and managing code, as well as tracking and controlling changes to their code.
+	\item Used BeautifulSoup and Requests libs of Python to scrape the website to generate datasets according to various topics, which were to be displayed in CSV (Comma Separated Value) format
+	\end{itemize}
+
 \item \textbf{A review paper on Blockchain Adoption in Food Security}
  \\[-0.7cm]
 	\begin{itemize}\itemsep \isep
