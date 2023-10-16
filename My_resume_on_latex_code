@@ -78,13 +78,23 @@
 \item \textbf {Microsoft Engage '22 Apprenticeship:} Developed and presented a browser-based application to demonstrate the application of Object detection and recognition technology for finding mission people or lost pets in 3 weeks.
 \end{itemize}
 
+\begin{itemize}
+\item \textbf {Vocational Trainee (DTG Department) at Bharat Heavy Electricals Limited:} Initiated and successfully completed the project 'Celestial Blossom: A Deep Learning Odyssey for Precise Floral Taxonomy empowered by Keras, Gradio, and Hugging Face Spaces' at one of India's leading public sector undertakings (PSUs) in power generation equipment manufacturing and allied services in 2 months.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf {Containerized Machine Learning Model Intern at Tejaxo Technologies:} Developed a Containerized Machine Learning Model with end-to-end deployment on AWS within a stipulated 3-month timeframe after acquiring the necessary technology knowledge.
+\end{itemize}
+
+
 \resheading{\textbf{PROJECTS AND PAPERS} }\\[\lsep]
 \begin{itemize}
-\item \textbf{Automating mail sending using Python} (Mini-project)\\
+\item \textbf{Celestial Blossom: A Deep Learning Odyssey for Precise Floral Taxonomy} (Internship project)\\
  \\[-1.1cm]
 	\begin{itemize}\itemsep \isep
-	\item Created a web app to send automated personalized emails to many people simultaneously in 4 different ways, viz., static text, dynamic text, beautified email using HTML/CSS, and beautified email using HTML/CSS (with attachments). 
-	\item Tech-stacks used: VS Code as IDE, Python language, Django framework for backend dev, HTML/CSS for frontend dev, GitHub for version controlling and code maintenance, CMD for execution of Python files, and Gmail service for sending mails.
+	\item This project focuses on the fine-tuning of the VGG16 model (pre-trained on ImageNet) to classify images of flowers into five distinct categories: Daisy, Dandelion, Sunflower, Rose, and Tulip.
+        \item By leveraging a small dataset of 3520 flower images from Kaggle, the fine-tuned VGG16 model achieves remarkable classification accuracy—97.67\% on the validation set and 95.00\% on the testing dataset.
+	\item The UI of "Celestial Blossom" is crafted to ensure user-friendly interactions and seamless functionality while harnessing the power of Keras, Gradio, and Hugging Face Spaces.
 	\end{itemize}
 
 \item \textbf{Facial recognition smart attendance app} (Smart India Hackathon '22 submission) \\
@@ -125,10 +135,25 @@
 	\item Used BeautifulSoup and Requests libs of Python to scrape the website to generate datasets according to various topics, which were to be displayed in CSV (Comma Separated Value) format
 	\end{itemize}
 
+ \item \textbf{Containerized Machine Learning Model} (Internship project)\\
+ \\[-1.1cm]
+	\begin{itemize}\itemsep \isep
+	\item Successfully designed, developed, and deployed a containerized ML model on AWS infrastructure, ensuring scalability and reliability for real-world applications.
+        \item Created a robust end-to-end pipeline that encompasses data preprocessing, model training, containerization, and deployment, streamlining the process for efficient model maintenance and updates.
+	\item Implemented cost-effective AWS resources and optimized the architecture to achieve high performance while minimizing operational costs, demonstrating a strong understanding of cloud-based ML solutions.
+	\end{itemize}
+
 \item \textbf{A review paper on Blockchain Adoption in Food Security}
  \\[-0.7cm]
 	\begin{itemize}\itemsep \isep
 	\item In this paper, we aimed to address some key questions that will help researchers to further extend their work in the progress of blockchain integration towards the goal of food security.
+	\end{itemize}
+
+ \item \textbf{Automating mail sending using Python} (Mini-project)\\
+ \\[-1.1cm]
+	\begin{itemize}\itemsep \isep
+	\item Created a web app to send automated personalized emails to many people simultaneously in 4 different ways, viz., static text, dynamic text, beautified email using HTML/CSS, and beautified email using HTML/CSS (with attachments). 
+	\item Tech-stacks used: VS Code as IDE, Python language, Django framework for backend dev, HTML/CSS for frontend dev, GitHub for version controlling and code maintenance, CMD for execution of Python files, and Gmail service for sending mails.
 	\end{itemize}
 
 \end{itemize}
