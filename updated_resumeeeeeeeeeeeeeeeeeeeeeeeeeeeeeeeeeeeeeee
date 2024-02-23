@@ -1,0 +1,155 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{Manya Singh} \\
+\indent Email-id : \textbf{manyasi2002@gmail.com} \\
+\indent Mobile No.: \textbf{+91 8954802668} \\
+\begin{align}
+\indent GitHub: \textbf{https://github.com/Manya-Singh} \\
+\indent LinkedIn: \textbf{https://www.linkedin.com/in/manya-singh-/} \\
+\indent Leetcode: \textbf{https://leetcode.com/SinManya/} \\
+\end{align}
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l }
+\hline
+\textbf{Year} & \textbf{Course/Branch/Exam} & \textbf{Institute} & \textbf{Marks/CPI(\%)} \\
+\hline
+2020-24\,\, & \textit{U.G. / CSE (AI and DS)} & Graphic Era University, Dehradun & 87\\
+2020, 2018 & AISSCE with PCM (CBSE), AISSE (CBSE) & Aster Public School, Greater Noida & 97.6, 98.04 \\
+\hline
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \\
+
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Languages} (C, C++, Python, Core Java, CSS, JavaScript, PHP)
+\item \noindent \textbf{Tools/Databases} (AWS cloud, Azure, GCP, Linux, MySQL, Docker, Jenkins, CI\//CD pipelines)
+\item \noindent \textbf Data Mining, MLOps, Deep Learning, and Neural Networks, Gen-AI, Prompt Engineering, Pytorch, Data Visualization (Tableau, Power BI, MS Excel), Statistical Modeling, OOPs, DSA
+\end{itemize}
+
+\resheading{\textbf{WORK EXPERIENCE} }\\[\lsep]
+\begin{itemize}
+\item \textbf {Microsoft Engage '22 Apprenticeship:} Developed a web app to demonstrate the Object detection and recognition application for finding missing people or lost pets.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf {SDE Intern at Bharat Heavy Electricals Limited (DTG):} Finished the project 'Celestial Blossom: A Deep Learning Odyssey for Precise Floral Taxonomy empowered by Keras, Gradio, and Hugging Face Spaces'.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf {ML Intern at Tejaxo Technologies:} Developed a Containerized Machine Learning Model with end-to-end deployment on AWS within a stipulated 3-month timeframe.
+\end{itemize}
+
+
+\resheading{\textbf{PROJECTS AND PAPERS} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Celestial Blossom: A Deep Learning Odyssey for Precise Floral Taxonomy} (Internship project)\\
+ \\[-1.1cm]
+	\begin{itemize}
+	\item Fine-tuned VGG16 on a dataset of 3520 flower images achieving 97.67\% validation and 95.00\% testing accuracy across Daisy, Dandelion, Sunflower, Rose, and Tulip categories. "Celestial Blossom" UI prioritizes seamless functionality, utilizing Keras, Gradio, and Hugging Face Spaces. 
+	\end{itemize}
+
+\item \textbf{Facial recognition smart attendance app} (SIH'22 submission) \\
+ \\[-1.1cm]
+	\begin{itemize}\itemsep \isep
+	\item Developed an attendance recording app with facial recognition capabilities, trained to identify individuals accurately even with caps/helmets/spectacles. Utilized CNN, Keras API, TensorFlow, OpenCV, tkinter, Python Imaging Lib for model creation, and Flutter Facenet API for app development. 
+	\end{itemize}
+
+	
+\item \textbf{Weather Prediction using different ML Algorithms} (Oracle Boot-Camp Assignment Project) 
+ \\[-0.7cm]
+	\begin{itemize}\itemsep \isep
+	\item Analyzed weather classification using 6 ML algorithms: Logistic Regression, KNN, SVM, Random Forest, Naive Bayes, and Decision Tree. Naive Bayes achieved the highest accuracy (84.15\%) in classifying Seattle Weather data into 5 categories: drizzle, rain, sun, snow, and fog.
+	\end{itemize}
+	
+\item \textbf{Dog's breed classification using Deep Learning (Transfer Learning)} (Mini-Project) 
+ \\[-0.7cm]
+	\begin{itemize}\itemsep \isep
+	\item Compared 4 pre-trained CNN models (Xception, Inception V3, Inception ResNet V2, NasNet Large) for classifying Stanford Dogs Dataset into 120 breeds. NasNet Large achieved the highest accuracy (82.5\%).
+	\end{itemize}
+
+
+ \item \textbf{Containerized Machine Learning Model} (Internship project)\\
+ \\[-1.1cm]
+	\begin{itemize}\itemsep \isep
+	\item Deployed containerized ML model on scalable AWS infrastructure, with a streamlined end-to-end pipeline covering data preprocessing, model training, containerization, and deployment for efficient maintenance. Optimized AWS resources for high performance while minimizing costs, showcasing cloud-based ML expertise.
+	\end{itemize}
+
+ \item \textbf{GitHub Web Scraping for CSV Dataset Generation with BeautifulSoup and Requests libs} (Mini-Project) 
+ \\[-0.7cm]
+	\begin{itemize}\itemsep \isep
+        \item Utilized BeautifulSoup and Requests in Python to scrape GitHub, extracting data on diverse topics and formatting it into CSV datasets.
+	\end{itemize}
+
+
+ \item \textbf{Automated Email Sending with Python} (Mini-project)\\
+ \\[-1.1cm]
+	\begin{itemize}\itemsep \isep
+	\item Created a web app using Python and Django to send personalized emails in various formats, including static and dynamic text, HTML/CSS beautified emails, and HTML/CSS beautified emails with attachments, leveraging Gmail service.
+	\end{itemize}
+
+ \item \textbf{A review paper on Blockchain Adoption in Food Security}
+ \\[-0.7cm]
+	\begin{itemize}\itemsep \isep
+	\item Focused on exploring blockchain integration's role in advancing food security, aiming to address key questions to guide future research and development efforts in this area, aligning with the UN's developmental goal on food security.
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{\textbf{CERTIFICATIONS} }\\[\lsep]
+\begin{itemize}
+\item \noindent Microsoft Certified: Azure AI Fundamentals (AI-900)
+\item \noindent AWS Certified Cloud Practitioner (CLF-C01)
+\item \noindent AWS Certified Solutions Architect - Associate (SAA-C03)
+\item \noindent Bertelsmann Employee Scholarship '23 Nanodegree recipient by Udacity
+\item \noindent AWS Machine Learning Foundations Nanodegree recipient by Udacity
+\item \noindent Ranked among the TOP 25 in the first-ever Coursera Employment Hackathon '23 pan-India
+\end{itemize}
+
+
+\end{document}
