@@ -56,8 +56,9 @@
 \hline
 \textbf{Year} & \textbf{Course/Branch/Exam} & \textbf{Institute} & \textbf{Marks/CPI(\%)} \\
 \hline
-2020-24\,\, & \textit{U.G. / CSE (AI and DS)} & Graphic Era University, Dehradun & 87\\
-2020, 2018 & AISSCE with PCM (CBSE), AISSE (CBSE) & Aster Public School, Greater Noida & 97.6, 98.04 \\
+2020-24\,\, & \textit{B.Tech / CSE (AI and DS)} & Graphic Era deemed to be University, Dehradun & 87.5\\
+2020 & \textit{AISSCE with PCM (CBSE)} & Aster Public School, Greater Noida & 97.6 \\
+2018 & \textit{AISSE (CBSE)} & Aster Public School, Greater Noida & 98.04 \\
 \hline
 \end{tabular}
 %\end{center}
@@ -72,7 +73,7 @@
 \item \noindent \textbf Data Mining, MLOps, Deep Learning, and Neural Networks, Gen-AI, Prompt Engineering, Pytorch, Data Visualization (Tableau, Power BI, MS Excel), Statistical Modeling, OOPs, DSA
 \end{itemize}
 
-\resheading{\textbf{WORK EXPERIENCE} }\\[\lsep]
+\resheading{\textbf{INTERNSHIPS} }\\[\lsep]
 \begin{itemize}
 \item \textbf {Microsoft Engage '22 Apprenticeship:} Developed a web app to demonstrate the Object detection and recognition application for finding missing people or lost pets.
 \end{itemize}
